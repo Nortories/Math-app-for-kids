@@ -12,7 +12,7 @@ Math Game is a educational game designed to help kids practice basic mathematics
 
 ## Demo
 
-You can see a live demo of the Math Game [here][https://youtu.be/sTCBSAJfAWI].
+You can see a live demo of the Math Game [https://youtu.be/sTCBSAJfAWI].
 
 ## Technologies Used
 

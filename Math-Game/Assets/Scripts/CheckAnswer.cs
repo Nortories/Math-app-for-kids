@@ -26,6 +26,16 @@ public class CheckAnswer : MonoBehaviour
             var equationGenerator = MathQu.GetComponent<EquationGenerator>();
             equationGenerator.StartRepeatedInvocation();
             score.name = (int.Parse(score.name) + 100).ToString();
+            GameObject answerButtonsObject = GameObject.Find("answers");
+            if (answerButtonsObject != null)
+            {
+                ButtonSounds otherScript = answerButtonsObject.GetComponent<ButtonSounds>();
+                if (otherScript != null)
+                {
+                    // Access the methods or properties of the OtherScript component
+                    otherScript.Sound1();
+                }
+            }
         }
         else
         {
@@ -33,6 +43,16 @@ public class CheckAnswer : MonoBehaviour
             colorBlock.selectedColor = Color.red;
             Debug.Log("Wrong");
             score.name = (int.Parse(score.name) - 50).ToString();
+            GameObject answerButtonsObject = GameObject.Find("answers");
+            if (answerButtonsObject != null)
+            {
+                ButtonSounds otherScript = answerButtonsObject.GetComponent<ButtonSounds>();
+                if (otherScript != null)
+                {
+                    // Access the methods or properties of the OtherScript component
+                    otherScript.Sound2();
+                }
+            }
 
         }
 

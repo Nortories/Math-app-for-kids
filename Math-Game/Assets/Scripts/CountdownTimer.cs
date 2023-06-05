@@ -23,7 +23,7 @@ public class CountdownTimer : MonoBehaviour
         if (currentTime <= 0f)
         {
             currentTime = 0f;
-            SceneManager.LoadScene(0); // scene index you want to load
+            SceneManager.LoadScene(2); // scene index you want to load
         }
         slider.value = Mathf.FloorToInt(currentTime % 60f);
         UpdateTimerText();

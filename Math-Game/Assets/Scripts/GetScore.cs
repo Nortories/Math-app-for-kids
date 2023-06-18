@@ -6,19 +6,19 @@ using TMPro;
 public class GetScore : MonoBehaviour
 {
     [SerializeField] TMP_Text text;
+    GameObject scoreGameObj = GameObject.FindWithTag("score");
 
     void Start()
     {
-        GameObject obj = GameObject.FindWithTag("score");
-        if (obj != null)
+        if (scoreGameObj != null)
         {
             // Use the GameObject reference as needed
-            Debug.Log("Found GameObject with tag 'MyTag': " + obj.name);
-            text.text = obj.name;
+            Debug.Log("Found GameObject with tag 'score': " + scoreGameObj.name);
+            text.text = scoreGameObj.name;
         }
         else
         {
-            Debug.Log("No GameObject found with tag 'MyTag'");
+            Debug.Log("No GameObject found with tag 'score'");
         }
     }
 }

@@ -2414,7 +2414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59336b1a7de4b3449904aed6552e2b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countdownDuration: 30
+  countdownDuration: 2.99
   timerText: {fileID: 2091904393}
   slider: {fileID: 1764271371}
 --- !u!114 &1764271371

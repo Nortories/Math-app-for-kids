@@ -1,5 +1,5 @@
 # Math Game
-
+*!Under Development!*
 Math Game is a educational game designed to help kids practice basic mathematics skills in a fun and interactive way. The game provides a platform for practicing addition, subtraction, multiplication, and division operations.
 
 ## Features
@@ -9,10 +9,12 @@ Math Game is a educational game designed to help kids practice basic mathematics
 - Timer-based gameplay to challenge players to solve equations within a time limit
 - Track and display player's score and progress
 - Interactive UI with buttons for answering equations and controlling game flow
+- Global Leader bord
 
 ## Demo
 
 You can see a live demo of the Math Game [https://youtu.be/sTCBSAJfAWI].
+How the Unity works with the Firebase DB [link here]
 
 ## Technologies Used
 

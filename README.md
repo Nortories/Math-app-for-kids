@@ -14,7 +14,7 @@ Math Game is a educational game designed to help kids practice basic mathematics
 ## Demo
 
 You can see a live demo of the Math Game [https://youtu.be/sTCBSAJfAWI].
-How the Unity works with the Firebase DB [link here]
+How the Unity works with the Firebase DB [https://youtu.be/Ch6HDqFeLYQ]
 
 ## Technologies Used
 
